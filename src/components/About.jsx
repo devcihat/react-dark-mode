@@ -3,7 +3,7 @@ import React from "react";
 function About(props) {
   return (
     <div className="container">
-      <h3 className="pt-5 text-center">Yapılacak Listesi</h3>
+      <h3 className="pt-5 text-center">Yapılacaklar Listesi</h3>
       <div className="row pt-5 px-3 mb-3 ms-3">
         <div className="list-group">
           <a

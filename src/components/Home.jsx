@@ -1,8 +1,6 @@
 import React from "react";
 
 function Home(props) {
-  const { bgColor, textColor, btnColor } = props.toggleObj;
-
   return (
     <div className="container">
       <div className="row pt-5 px-3 mb-3 ms-3">
