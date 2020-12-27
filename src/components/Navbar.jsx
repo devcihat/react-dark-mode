@@ -5,11 +5,11 @@ function Navbar() {
   return (
     <nav
       style={{ backgroundColor: "#e3f2fd" }}
-      class="navbar navbar-expand-lg navbar-light"
+      className="navbar navbar-expand-lg navbar-light"
     >
-      <div class="container-fluid">
+      <div className="container-fluid">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo01"
@@ -17,37 +17,37 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon" />
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand ms-4" href="#">
+        <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a className="navbar-brand ms-4" href="#">
             <b>Cihat S.</b>
           </a>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-            <li class="nav-item">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li className="nav-item">
               <Link to="/Home" className="nav-link">
                 <i>Home</i>
               </Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <Link to="/about" className="nav-link">
                 <i>About</i>
               </Link>
             </li>
-            <li class="nav-item ">
+            <li className="nav-item ">
               <Link to="/contact" className="nav-link">
                 <i>Contact</i>
               </Link>
             </li>
           </ul>
-          <form class="d-flex">
+          <form className="d-flex">
             <input
-              class="form-control me-2"
+              className="form-control me-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button className="btn btn-outline-success" type="submit">
               Search
             </button>
           </form>

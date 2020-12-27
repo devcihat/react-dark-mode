@@ -5,7 +5,7 @@ function Home(props) {
 
   return (
     <div className="container">
-      <div className="row pt-5">
+      <div className="row pt-5 px-3 mb-3 ms-3">
         <div className="col-sm-4 col-lg-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-header text-center">Header</div>

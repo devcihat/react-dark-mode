@@ -9,13 +9,13 @@ function Footer(props) {
   return (
     <footer className=" my-md-4 pt-md-4 border-top">
       <div className="container">
-        <div className="row">
+        <div className="row pt-3">
           <div className="col-12 col-md">
             <i className="fab fa-react fa-lg" />
             <p>
               Created By<b> Cihat Sungu</b>
             </p>
-            <button className={`btn ${btnColor}`} onClick={themeHandler}>
+            <button className={`mb-3 btn ${btnColor}`} onClick={themeHandler}>
               Toggle Color
             </button>
           </div>
