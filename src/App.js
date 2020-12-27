@@ -21,10 +21,10 @@ export default function App() {
       <div className={`${toggleObj.bgColor} ${toggleObj.textColor}`}>
         <div>
           <Navbar />
+          <Route exact path="/Home">
+            <Home toggleObj={toggleObj} />
+          </Route>
           <Switch>
-            <Route path="/Home">
-              <Home toggleObj={toggleObj} />
-            </Route>
             <Route path="/About">
               <About toggleObj={toggleObj} />
             </Route>

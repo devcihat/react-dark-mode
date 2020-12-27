@@ -20,7 +20,7 @@ function Navbar() {
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a className="navbar-brand ms-4" href="#">
+          <a className="navbar-brand ms-4" href="/Home">
             <b>Cihat S.</b>
           </a>
           <ul className="navbar-nav  mb-2 mb-lg-0 mx-auto ">
