@@ -13,7 +13,16 @@ function Footer(props) {
           <div className="col-12 col-md">
             <i className="fab fa-react fa-lg" />
             <p>
-              Created By<b> Cihat Sungu</b>
+              Created By
+              <b>
+                {" "}
+                <a
+                  className=""
+                  href="https://github.com/devcihat"
+                >
+                  Cihat Süngü
+                </a>
+              </b>
             </p>
             <button className={`mb-3 btn ${btnColor}`} onClick={themeHandler}>
               Toggle Color
