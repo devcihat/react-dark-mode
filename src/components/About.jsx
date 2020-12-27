@@ -8,7 +8,7 @@ function About(props) {
         <div className="list-group">
           <a
             href="#"
-            className="list-group-item list-group-item-action "
+            className="list-group-item list-group-item-action mb-3 "
             aria-current="true"
           >
             <div className="d-flex w-100 justify-content-between">
@@ -21,7 +21,7 @@ function About(props) {
             </p>
             <small>Donec id elit non mi porta.</small>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a href="#" className="list-group-item list-group-item-action mb-3">
             <div className="d-flex w-100 justify-content-between">
               <h5 className="mb-1">List group item heading</h5>
               <small className="text-muted">3 days ago</small>
