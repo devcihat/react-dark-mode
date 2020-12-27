@@ -2,7 +2,7 @@ export const lightTheme = {
   theme: "light",
   bgColor: "bg-light",
   textColor: "text-dark",
-  btnColor: "btn-primary"
+  btnColor: "btn-success"
 };
 
 export const darkTheme = {
