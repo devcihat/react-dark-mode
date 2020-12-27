@@ -10,29 +10,29 @@ import Contact from "./components/Contact";
 import { lightTheme, darkTheme } from "./theme/theme";
 
 export default function App() {
-  const [themeObj, setThemeObj] = React.useState(lightTheme);
+  const [toggleObj, setToggleObj] = React.useState(lightTheme);
 
   function themeHandler() {
-    setThemeObj(themeObj.theme === "light" ? darkTheme : lightTheme);
+    setToggleObj(toggleObj.theme === "light" ? darkTheme : lightTheme);
   }
 
   return (
     <Router>
-      <div className={`${themeObj.bgColor} ${themeObj.textColor}`}>
+      <div className={`${toggleObj.bgColor} ${toggleObj.textColor}`}>
         <div>
           <Navbar />
           <Switch>
             <Route path="/Home">
-              <Home themeObj={themeObj} />
+              <Home toggleObj={toggleObj} />
             </Route>
             <Route path="/About">
-              <About themeObj={themeObj} />
+              <About toggleObj={toggleObj} />
             </Route>
             <Route path="/Contact">
-              <Contact themeObj={themeObj} />
+              <Contact toggleObj={toggleObj} />
             </Route>
           </Switch>
-          <Footer themeObj={themeObj} themeHandler={themeHandler} />
+          <Footer toggleObj={toggleObj} themeHandler={themeHandler} />
         </div>
       </div>
     </Router>

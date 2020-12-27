@@ -1,7 +1,7 @@
 import React from "react";
 
 function Home(props) {
-  const { bgColor, textColor, btnColor } = props.themeObj;
+  const { bgColor, textColor, btnColor } = props.toggleObj;
 
   return (
     <div className="container">

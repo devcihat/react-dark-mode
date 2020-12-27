@@ -3,7 +3,7 @@ import React from "react";
 function Footer(props) {
   const {
     themeHandler,
-    themeObj: { theme, bgColor, textColor, btnColor }
+    toggleObj: { theme, bgColor, textColor, btnColor }
   } = props;
 
   return (
