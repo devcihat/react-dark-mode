@@ -43,7 +43,7 @@ function Home(props) {
           </div>
         </div>
         <div className="text-center pt-3">
-          <p style={{ lineHeight: "24px" }} className="text-muted">
+          <p style={{ lineHeight: "28px", maxWidth: "1000px" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
