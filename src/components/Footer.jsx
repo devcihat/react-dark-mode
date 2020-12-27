@@ -7,7 +7,7 @@ function Footer(props) {
   } = props;
 
   return (
-    <footer className=" my-md-4 pt-md-4 border-top">
+    <footer className=" my-md-4 pt-md-4 ">
       <div className="container">
         <div className="row pt-3">
           <div className="col-12 col-md">
