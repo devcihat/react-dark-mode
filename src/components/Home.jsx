@@ -4,7 +4,7 @@ function Home(props) {
   return (
     <div className="container">
       <div className="row  pt-5 px-3 mb-3 ms-3">
-        <div className=" col-sm-4 col-md-6">
+        <div className="col-sm-4 col-md-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-header text-center">Header</div>
             <div className="card-body text-dark">
@@ -16,7 +16,7 @@ function Home(props) {
             </div>
           </div>
         </div>
-        <div className="col-sm-4 col-md-6">
+        <div className="col-sm-4 col-md-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-header text-center">Header</div>
             <div className="card-body text-dark">
@@ -28,7 +28,7 @@ function Home(props) {
             </div>
           </div>
         </div>
-        <div className="" col-sm-4 col-md-6>
+        <div className=" col-sm-4 col-md-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-header text-center">Header</div>
             <div className="card-body text-dark">
@@ -54,7 +54,7 @@ function Home(props) {
             officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div className="" col-sm-4 col-md-6>
+        <div className="col-sm-4 col-md-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-header text-center">Header</div>
             <div className="card-body text-dark">
@@ -66,7 +66,7 @@ function Home(props) {
             </div>
           </div>
         </div>
-        <div className="" col-sm-4 col-md-6>
+        <div className=" col-sm-4 col-md-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-header text-center">Header</div>
             <div className="card-body text-dark">
@@ -78,7 +78,7 @@ function Home(props) {
             </div>
           </div>
         </div>
-        <div className="" col-sm-4 col-md-6>
+        <div className=" col-sm-4 col-md-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
             <div className="card-header text-center">Header</div>
             <div className="card-body text-dark">
