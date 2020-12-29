@@ -1,8 +1,30 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function Contact(props) {
+  const pageVariants = {
+    in: {
+      opacity: 1,
+      x: 0
+    },
+    out: {
+      opacity: 0,
+      x: "-100vw"
+    }
+  };
+  const pageTransition = {
+    duration: 2
+  };
   return (
-    <div className="container">
+    <motion.div
+      initial="out"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={pageTransition}
+      className="container"
+    >
+      <h3 className="pt-5 text-center">Contact Page</h3>
       <form className="needs-validation" noValidate="">
         <div className="row g-3 pt-4">
           <div className="col-sm-6">
@@ -266,7 +288,7 @@ function Contact(props) {
           Continue to checkout
         </button>
       </form>
-    </div>
+    </motion.div>
   );
 }
 

@@ -1,9 +1,27 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function About(props) {
+  const pageTransition = {
+    in: {
+      opacity: 1,
+      y: 0
+    },
+    out: {
+      opacity: 0,
+      y: "-100vw"
+    }
+  };
   return (
-    <div className="container">
-      <h3 className="pt-5 text-center">Yapılacaklar Listesi</h3>
+    <motion.div
+      initial="out"
+      animate="in"
+      exit="out"
+      variants={pageTransition}
+      className="container"
+    >
+      <h3 className="pt-5 text-center">About Us</h3>
+
       <div className="row  pt-5 px-3 mb-3 ms-3">
         <div className="list-group">
           <a
@@ -43,6 +61,7 @@ function About(props) {
             <small className="text-muted">Donec id elit non mi porta.</small>
           </a>
         </div>
+
         <div className="list-group pt-3">
           <a
             className="list-group-item list-group-item-action  "
@@ -120,7 +139,7 @@ function About(props) {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

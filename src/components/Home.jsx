@@ -1,8 +1,15 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function Home(props) {
   return (
-    <div className="container">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="container"
+    >
+      <h3 className="pt-5 text-center">Home Page</h3>
       <div className="row  pt-5 px-3 mb-3 ms-3">
         <div className="col-sm-4 col-md-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
@@ -105,7 +112,7 @@ function Home(props) {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

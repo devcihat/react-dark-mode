@@ -16,10 +16,7 @@ function Footer(props) {
               Created By
               <b>
                 {" "}
-                <a
-                  className=""
-                  href="https://github.com/devcihat"
-                >
+                <a className="" href="https://github.com/devcihat">
                   Cihat Süngü
                 </a>
               </b>
