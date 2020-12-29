@@ -7,7 +7,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import { lightTheme, darkTheme } from "./theme/theme";
+import { lightTheme, darkTheme } from "./theme/themeColor";
 
 export default function App() {
   const [toggleObj, setToggleObj] = React.useState(lightTheme);
