@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 function Card(props) {
   const [like, setLike] = useState(Number(localStorage.getItem(props.id)) || 0);
@@ -12,12 +13,34 @@ function Card(props) {
   const { title, body, imgUrl } = props.item;
   const ITEM = props.item;
 
+  const aboutTransition = {
+    duration: 2
+  };
+
+  const pageTransition = {
+    in: {
+      opacity: 1,
+      y: 0
+    },
+    out: {
+      opacity: 0,
+      y: "-100vw"
+    }
+  };
+
   return (
-    <div className="col mb-2 ">
+    <motion.div
+      initial="out"
+      animate="in"
+      exit="out"
+      variants={pageTransition}
+      transition={aboutTransition}
+      className="col mb-2 "
+    >
       <div style={{ width: "20rem" }} className="card">
         <img src={ITEM.imgUrl} className="img-fluid" alt="..." />
         <div className="card-body">
-          <h5 className="card-title">{ITEM.title}</h5>
+          <h5 className="card-title text-muted">{ITEM.title}</h5>
           <p className="card-text text-muted">{ITEM.body}</p>
           <button
             type="button"
@@ -38,7 +61,7 @@ function Card(props) {
         </div>
         <small className="text-muted text-end my-3 mx-3 "> {like} Like</small>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

@@ -2,18 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function About(props) {
-  const pageVariants = {
-    in: {
-      opacity: 1,
-      x: 0
-    },
-    out: {
-      opacity: 0,
-      x: "-100vw"
-    }
-  };
-
-  const aboutTransition = {
+ const aboutTransition = {
     duration: 2
   };
 
