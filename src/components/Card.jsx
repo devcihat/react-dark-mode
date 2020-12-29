@@ -35,9 +35,9 @@ function Card(props) {
       exit="out"
       variants={pageTransition}
       transition={aboutTransition}
-      className="col-xl-3 col-lg-4 col-md-6 mb-2 "
+      className="col-xl-3 col-lg-3 col-md-6 mb-2 "
     >
-      <div  className="card">
+      <div className="card">
         <img src={ITEM.imgUrl} className="img-fluid" alt="..." />
         <div className="card-body">
           <h5 className="card-title text-muted">{ITEM.title}</h5>
