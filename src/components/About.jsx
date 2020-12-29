@@ -22,7 +22,7 @@ function About(props) {
     >
       <h3 className="pt-5 text-center">About Us</h3>
 
-      <div className="row  pt-5 px-3 mb-3 ms-3">
+      <div className="row  pt-2 px-3 mb-3 ms-3">
         <div className="list-group">
           <a
             className="list-group-item list-group-item-action mb-3 "
@@ -38,7 +38,10 @@ function About(props) {
             </p>
             <small>Donec id elit non mi porta.</small>
           </a>
-          <a className="list-group-item list-group-item-action mb-3">
+          <a
+            className="list-group-item list-group-item-action mb-3"
+            aria-current="true"
+          >
             <div className="d-flex   w-100 justify-content-between">
               <h5 className="mb-1">List group item heading</h5>
               <small className="text-muted">3 days ago</small>
@@ -105,7 +108,7 @@ function About(props) {
             className="list-group-item list-group-item-action mb-3 "
             aria-current="true"
           >
-            <div className="d-flex  w-100 justify-content-between pt-3">
+            <div className="d-flex  w-100 justify-content-between ">
               <h5 className="mb-1">List group item heading</h5>
               <small>6 days ago</small>
             </div>
