@@ -15,5 +15,6 @@ p {
 .nav-item:hover {
   background-color: white;
   border-radius: 40px;
-  max-width: 130px;
+  max-width: 80px;
+  text-align: center;
 }
