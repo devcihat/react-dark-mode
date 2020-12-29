@@ -18,7 +18,7 @@ function Card(props) {
         <img src={ITEM.imgUrl} className="img-fluid" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{ITEM.title}</h5>
-          <p className="card-text text-black">{ITEM.body}</p>
+          <p className="card-text text-muted">{ITEM.body}</p>
           <button
             type="button"
             name="increase"
