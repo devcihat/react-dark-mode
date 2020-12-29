@@ -21,15 +21,16 @@ export default function App() {
       <div className={`${toggleObj.bgColor} ${toggleObj.textColor}`}>
         <div>
           <Navbar />
-          <Route exact path="/Home">
-            <Home toggleObj={toggleObj} />
-          </Route>
+
           <Switch>
             <Route path="/About">
               <About toggleObj={toggleObj} />
             </Route>
             <Route path="/Contact">
               <Contact toggleObj={toggleObj} />
+            </Route>
+            <Route path="/">
+              <Home toggleObj={toggleObj} />
             </Route>
           </Switch>
           <Footer toggleObj={toggleObj} themeHandler={themeHandler} />

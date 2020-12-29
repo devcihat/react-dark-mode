@@ -32,9 +32,9 @@ function About(props) {
             <small className="text-muted">Donec id elit non mi porta.</small>
           </a>
           <a className="list-group-item list-group-item-action">
-            <div className="d-flex w-100 justify-content-between">
+            <div className="d-flex w-100 justify-content-between ">
               <h5 className="mb-1">List group item heading</h5>
-              <small className="text-muted">3 days ago</small>
+              <small className="text-muted">4 days ago</small>
             </div>
             <p className="mb-1">
               Donec id elit non mi porta gravida at eget metus. Maecenas sed
@@ -43,14 +43,14 @@ function About(props) {
             <small className="text-muted">Donec id elit non mi porta.</small>
           </a>
         </div>
-        <div className="list-group">
+        <div className="list-group pt-3">
           <a
-            className="list-group-item list-group-item-action mb-3 "
+            className="list-group-item list-group-item-action  "
             aria-current="true"
           >
-            <div className="d-flex w-100 justify-content-between">
+            <div className="d-flex w-100 justify-content-between ">
               <h5 className="mb-1">List group item heading</h5>
-              <small>3 days ago</small>
+              <small>5 days ago</small>
             </div>
             <p className="mb-1">
               Donec id elit non mi porta gravida at eget metus. Maecenas sed
@@ -58,10 +58,10 @@ function About(props) {
             </p>
             <small>Donec id elit non mi porta.</small>
           </a>
-          <a className="list-group-item list-group-item-action mb-3">
+          <a className="list-group-item list-group-item-action mt-3">
             <div className="d-flex   w-100 justify-content-between">
               <h5 className="mb-1">List group item heading</h5>
-              <small className="text-muted">3 days ago</small>
+              <small className="text-muted">7 days ago</small>
             </div>
             <p className="mb-1">
               Donec id elit non mi porta gravida at eget metus. Maecenas sed
@@ -69,10 +69,10 @@ function About(props) {
             </p>
             <small className="text-muted">Donec id elit non mi porta.</small>
           </a>
-          <a className="list-group-item list-group-item-action">
-            <div className="d-flex  w-100 justify-content-between">
+          <a className="list-group-item list-group-item-action mt-3">
+            <div className="d-flex  w-100 justify-content-between ">
               <h5 className="mb-1">List group item heading</h5>
-              <small className="text-muted">3 days ago</small>
+              <small className="text-muted">8 days ago</small>
             </div>
             <p className="mb-1">
               Donec id elit non mi porta gravida at eget metus. Maecenas sed
@@ -81,14 +81,14 @@ function About(props) {
             <small className="text-muted">Donec id elit non mi porta.</small>
           </a>
         </div>
-        <div className="list-group">
+        <div className="list-group pt-3 ">
           <a
             className="list-group-item list-group-item-action mb-3 "
             aria-current="true"
           >
-            <div className="d-flex  w-100 justify-content-between">
+            <div className="d-flex  w-100 justify-content-between pt-3">
               <h5 className="mb-1">List group item heading</h5>
-              <small>3 days ago</small>
+              <small>6 days ago</small>
             </div>
             <p className="mb-1">
               Donec id elit non mi porta gravida at eget metus. Maecenas sed
