@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav
-      style={{ backgroundColor: "#e3f2fd" }}
-      className="navbar navbar-expand-lg navbar-dark bg-dark"
-    >
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <button
           className="navbar-toggler"
