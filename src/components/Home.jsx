@@ -2,11 +2,15 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function Home(props) {
+  const homeTransition = {
+    duration: 2
+  };
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
+      transition={homeTransition}
       className="container"
     >
       <h3 className="pt-5 text-center">Home Page</h3>

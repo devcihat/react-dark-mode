@@ -12,7 +12,8 @@ function About(props) {
       x: "-100vw"
     }
   };
-  const pageeTransition = {
+
+  const aboutTransition = {
     duration: 2
   };
 
@@ -32,6 +33,7 @@ function About(props) {
       animate="in"
       exit="out"
       variants={pageTransition}
+      transition={aboutTransition}
       className="container"
     >
       <h3 className="pt-5 text-center">About Us</h3>

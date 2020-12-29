@@ -44,7 +44,7 @@ function Footer(props) {
               </b>
             </p>
             <button className={`mb-3 btn ${btnColor}`} onClick={themeHandler}>
-              Toggle Color
+              Toggle Mode
             </button>
           </div>
           <div className="col-6 col-md">
