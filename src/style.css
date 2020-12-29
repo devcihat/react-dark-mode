@@ -22,3 +22,7 @@ body {
   max-width: 80px;
   text-align: center;
 }
+
+.header {
+  color: black;
+}

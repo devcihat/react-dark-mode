@@ -17,7 +17,7 @@ function Home(props) {
       <div className="row  pt-5 px-3 mb-3 ms-3">
         <div className="col-sm-4 col-md-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
-            <h6 className="card-header text-center">Header</h6>
+            <h6 className="card-header header text-center">Header</h6>
             <div className="card-body text-dark">
               <h5 className="card-title">Dark card title</h5>
               <p className="card-text">
@@ -29,7 +29,7 @@ function Home(props) {
         </div>
         <div className="col-sm-4 col-md-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
-            <div className="card-header text-center">Header</div>
+            <div className="card-header header text-center">Header</div>
             <div className="card-body text-dark">
               <h5 className="card-title">Dark card title</h5>
               <p className="card-text">
@@ -41,7 +41,7 @@ function Home(props) {
         </div>
         <div className=" col-sm-4 col-md-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
-            <div className="card-header text-center">Header</div>
+            <div className="card-header header text-center">Header</div>
             <div className="card-body text-dark">
               <h5 className="card-title">Dark card title</h5>
               <p className="card-text">
@@ -67,7 +67,7 @@ function Home(props) {
         </div>
         <div className="col-sm-4 col-md-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
-            <div className="card-header text-center">Header</div>
+            <div className="card-header header text-center">Header</div>
             <div className="card-body text-dark">
               <h5 className="card-title">Dark card title</h5>
               <p className="card-text">
@@ -79,7 +79,7 @@ function Home(props) {
         </div>
         <div className=" col-sm-4 col-md-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
-            <div className="card-header text-center">Header</div>
+            <div className="card-header header text-center">Header</div>
             <div className="card-body text-dark">
               <h5 className="card-title">Dark card title</h5>
               <p className="card-text">
@@ -91,7 +91,7 @@ function Home(props) {
         </div>
         <div className=" col-sm-4 col-md-4">
           <div className="card border-dark mb-3" style={{ maxWidth: "18rem" }}>
-            <div className="card-header text-center">Header</div>
+            <div className="card-header header text-center">Header</div>
             <div className="card-body text-dark">
               <h5 className="card-title">Dark card title</h5>
               <p className="card-text">
