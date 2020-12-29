@@ -7,6 +7,8 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import CARD_LIST from "./data/card_list";
+import CardComp from "./components/Card";
 import { lightTheme, darkTheme } from "./theme/themeColor";
 
 export default function App() {
@@ -28,6 +30,15 @@ export default function App() {
             </Route>
             <Route path="/Contact">
               <Contact toggleObj={toggleObj} />
+            </Route>
+            <Route path="/Card">
+              <div className="container">
+                <div className="row pt-5">
+                  {CARD_LIST.map((item, index) => {
+                    return <CardComp id={index} item={item} like={item.like} />;
+                  })}
+                </div>
+              </div>
             </Route>
             <Route path="/">
               <Home toggleObj={toggleObj} />

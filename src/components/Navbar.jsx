@@ -37,6 +37,11 @@ function Navbar() {
                 <i>Contact</i>
               </Link>
             </li>
+            <li className="nav-item ">
+              <Link to="/card" className="nav-link text-white">
+                <i>Card</i>
+              </Link>
+            </li>
           </ul>
           <form className="d-flex">
             <input
