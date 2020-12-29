@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav
       style={{ backgroundColor: "#e3f2fd" }}
-      className="navbar navbar-expand-lg navbar-light"
+      className="navbar navbar-expand-lg navbar-dark bg-dark"
     >
       <div className="container-fluid">
         <button
@@ -26,17 +26,17 @@ function Navbar() {
           </a>
           <ul className="navbar-nav  mb-2 mb-lg-0 mx-auto ">
             <li className="nav-item">
-              <Link to="/Home" className="nav-link ">
+              <Link to="/Home" className="nav-link text-white">
                 <i>Home</i>
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/about" className="nav-link">
+              <Link to="/about" className="nav-link text-white">
                 <i>About</i>
               </Link>
             </li>
             <li className="nav-item ">
-              <Link to="/contact" className="nav-link">
+              <Link to="/contact" className="nav-link text-white">
                 <i>Contact</i>
               </Link>
             </li>
