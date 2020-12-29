@@ -24,7 +24,7 @@ function Navbar() {
           <a className="  navbar-brand ms-4" href="/Home">
             <b className="Logo">Cihat S.</b>
           </a>
-          <ul className="navbar-nav  mb-2 mb-lg-0 mx-auto ">
+          <ul className="navbar-nav mx-auto m-2 ">
             <li className="nav-item">
               <Link to="/Home" className="nav-link text-white">
                 <i>Home</i>
