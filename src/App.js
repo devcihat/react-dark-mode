@@ -9,7 +9,6 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import { lightTheme, darkTheme } from "./theme/theme";
 
-
 export default function App() {
   const [toggleObj, setToggleObj] = React.useState(lightTheme);
 
@@ -22,19 +21,19 @@ export default function App() {
       <div className={`${toggleObj.bgColor} ${toggleObj.textColor}`}>
         <div>
           <Navbar />
-          
-            <Switch>
-              <Route path="/About">
-                <About toggleObj={toggleObj} />
-              </Route>
-              <Route path="/Contact">
-                <Contact toggleObj={toggleObj} />
-              </Route>
-              <Route path="/">
-                <Home toggleObj={toggleObj} />
-              </Route>
-            </Switch>
-          
+
+          <Switch>
+            <Route path="/About">
+              <About toggleObj={toggleObj} />
+            </Route>
+            <Route path="/Contact">
+              <Contact toggleObj={toggleObj} />
+            </Route>
+            <Route path="/">
+              <Home toggleObj={toggleObj} />
+            </Route>
+          </Switch>
+
           <Footer toggleObj={toggleObj} themeHandler={themeHandler} />
         </div>
       </div>

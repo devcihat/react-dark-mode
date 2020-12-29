@@ -1,4 +1,4 @@
-const DarkMode = "btn-dark";
+const DarkMode = "btn-dark ";
 const LightMode = "btn-light";
 
 export const lightTheme = {
@@ -10,7 +10,7 @@ export const lightTheme = {
 
 export const darkTheme = {
   theme: "dark",
-  bgColor: "bg-dark",
+  bgColor: "bg-dark ",
   textColor: "text-light",
   btnColor: LightMode
 };

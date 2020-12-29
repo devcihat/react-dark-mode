@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function Footer(props) {
   const {
@@ -6,8 +7,29 @@ function Footer(props) {
     toggleObj: { theme, bgColor, textColor, btnColor }
   } = props;
 
+  const pageVariants = {
+    in: {
+      opacity: 1,
+      x: 0
+    },
+    out: {
+      opacity: 0,
+      x: "-100vw"
+    }
+  };
+  const pageTransition = {
+    duration: 2
+  };
+
   return (
-    <footer className=" my-md-4 pt-md-4 ">
+    <motion.footer
+      initial="out"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={pageTransition}
+      className=" my-md-4 pt-md-4 "
+    >
       <div className="container">
         <div className="row pt-3">
           <div className="col-12 col-md">
@@ -112,7 +134,7 @@ function Footer(props) {
           </div>
         </div>
       </div>
-    </footer>
+    </motion.footer>
   );
 }
 

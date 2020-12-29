@@ -1,4 +1,5 @@
 import React from "react";
+import "../style.css";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -20,12 +21,12 @@ function Navbar() {
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a className="navbar-brand ms-4" href="/Home">
-            <b>Cihat S.</b>
+          <a className="  navbar-brand ms-4" href="/Home">
+            <b className="Logo">Cihat S.</b>
           </a>
           <ul className="navbar-nav  mb-2 mb-lg-0 mx-auto ">
             <li className="nav-item">
-              <Link to="/Home" className="nav-link">
+              <Link to="/Home" className="nav-link ">
                 <i>Home</i>
               </Link>
             </li>
